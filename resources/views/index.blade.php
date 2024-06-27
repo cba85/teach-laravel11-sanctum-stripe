@@ -43,14 +43,15 @@
             <h3>Stripe</h3>
 
             <ul>
-                <li>Checkout: <code>GET /api/stripe/checkout</code></li>
-                <li>Webhook: <code>GET /api/stripe/webhook</code></li>
+                <li>Checkout: <code>POST /api/stripe/checkout</code></li>
+                <li>Webhook: <code>POST /api/stripe/webhook</code></li>
+                <li>Customer portal: <code>GET /api/stripe/customer</code></li>
             </ul>
 
             <h3>Contact</h3>
 
             <ul>
-                <li>Contact: <code>GET /api/contact</code></li>
+                <li>Contact: <code>POST /api/contact</code></li>
             </ul>
         </div>
 
